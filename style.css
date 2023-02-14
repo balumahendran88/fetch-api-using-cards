@@ -1,0 +1,41 @@
+#container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.cards {
+    padding: 1em;
+    margin: 1em;
+    border-radius: 10px;
+    -webkit-box-shadow: 4px 4px 5px 2px rgb(0 0 0 / 75%);
+    -moz-box-shadow: 4px 4px 5px 2px rgb(0 0 0 / 75%);
+    box-shadow: 4px 4px 5px 2px rgb(0 0 0 / 75%);
+    text-align: center;
+}
+h1 {
+    width: 16em;
+    color: green;
+    font-size: 14px;
+}
+h2 {
+    text-align: center;
+}
+.category {
+    text-align: center;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: red;
+}
+.price {
+    text-align: center;
+    font-size: 2rem;
+    border-radius: 10px;
+    background: lightgray;
+}
+.product-img {
+    text-align: center;
+}
+.description {
+    width: 10em;
+    text-align: center;
+}
